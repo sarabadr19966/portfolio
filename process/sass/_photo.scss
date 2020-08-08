@@ -1,0 +1,14 @@
+.info{
+    color:$base-color;
+    transition: all .35s;
+    .my-img{
+        width: 200px;
+        height:200px;
+        margin: 20px auto;
+        img{
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+        }
+    }
+}

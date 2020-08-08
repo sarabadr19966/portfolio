@@ -1,0 +1,40 @@
+.my-nav{
+    padding: 0;
+    margin: 0;
+        ul{
+            padding-left:30px ;
+            li{
+                cursor: pointer;
+                &:hover{
+                    & a{
+                            color: $base-color !important;
+                    }
+                }
+                a{
+                    display: inline-block;
+                    margin:auto 10px;
+                    &.current{
+                        color: $base-color !important;
+                    }
+                }
+            }
+        }    
+    }
+#my-navbar-collapse {
+    transition: all .5s;
+    border-top:1px solid $light-gray ;
+    color: $light-gray;
+    background-color:#a73d3d; 
+}
+.getintouch{
+    padding-left: 10px;
+    margin-top: 40px;
+    a{
+        margin-right: 8px;
+        color: $light-gray !important;
+        &:hover,&:active{
+            color: $base-color !important;
+
+        }
+    }
+}

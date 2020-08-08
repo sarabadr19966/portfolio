@@ -1,0 +1,86 @@
+
+@media(min-width:992px){
+    .triangle-left {
+        margin-top: 7.5px;
+        position: absolute;
+        right: 0px;
+        width: 0;
+        height: 0;
+        border-top: 12.5px solid transparent;
+        border-right: 25px solid rgba($color:#ccc, $alpha: .6);
+        border-bottom: 12.5px solid transparent;
+        display: inline-block;
+    }
+  
+    .About{
+        margin-left:350px;
+        padding-left: 100px;
+        
+    
+    }
+    .getintouch{
+        padding-left: 40px ;
+    }
+    #my-navbar-collapse {
+        position:fixed;
+        top: 0px;
+        left: 0;
+        z-index: 101;
+        width: 350px;
+        height: 100%;
+        background-color: rgba(145,13,13,.8); 
+        border: none;
+    }
+    .Skils,.Education,.Contact,.Projects{
+        margin-left: 350px;
+        padding: 50px;
+        h1{
+            margin-bottom: 100px;
+        }
+
+    }
+   
+}
+@media(max-width:991px){
+ 
+    .navbar-toggler:hover,
+    .navbar-toggler:active,
+    .navbar-toggler:focus
+    {
+    outline:none !important;
+    }
+  
+    .my-nav{
+        background-color: #a73d3d; 
+        padding: 12px auto;
+        ul li 
+        {
+            text-align: right;
+
+            padding: 10px;
+        }
+    }
+    .About{
+        padding-left: 20px;
+        .Download{
+            margin-top: 60px;
+            color: $base-color;
+            border-color: $base-color;
+        }
+    }
+    .info{
+        border-bottom:1px solid $light-gray ;
+    }
+    .Skils,.Education,.Contact,.Projects{
+        h1{
+            padding-top: 40px;
+            padding-bottom:40px;
+        }
+    }
+    .Contact{
+        a{
+            text-decoration: none;
+        }
+    }
+}
+

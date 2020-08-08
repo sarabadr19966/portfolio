@@ -1,0 +1,36 @@
+main{
+    background: url(../images/home-bg3.ef171b05.jpg) top center no-repeat #bababa;
+    background-size: cover;
+    box-sizing: border-box;
+    min-height: 100vh;
+    margin: 0;
+    padding:0;
+    background-clip: border-box;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+.btn:hover,.btn:focus,.btn:active{
+    color:$base-color;
+    border-color: $base-color; 
+    outline: 0 !important;
+    box-shadow: none!important;
+}
+.navbar-toggler{
+    border: none !important;
+}
+.Skils,.Education,.Contact{
+    background-color: white;
+    min-height: 100vh;
+    
+    h1{
+        animation: fadeInLeft;
+        animation-duration: .8s;
+        color: $red;
+    }
+    i{
+        color:#d1a128;
+    } 
+  
+  
+}
+

@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,400&display=swap");
+.my-nav {
+  padding: 0;
+  margin: 0; }
+  .my-nav ul {
+    padding-left: 30px; }
+    .my-nav ul li {
+      cursor: pointer; }
+      .my-nav ul li:hover a {
+        color: white !important; }
+      .my-nav ul li a {
+        display: inline-block;
+        margin: auto 10px; }
+        .my-nav ul li a.current {
+          color: white !important; }
+
+#my-navbar-collapse {
+  transition: all .5s;
+  border-top: 1px solid #d8d8d8;
+  color: #d8d8d8;
+  background-color: #a73d3d; }
+
+.getintouch {
+  padding-left: 10px;
+  margin-top: 40px; }
+  .getintouch a {
+    margin-right: 8px;
+    color: #d8d8d8 !important; }
+    .getintouch a:hover, .getintouch a:active {
+      color: white !important; }
+
+.info {
+  color: white;
+  transition: all .35s; }
+  .info .my-img {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto; }
+    .info .my-img img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%; }
+
+.About {
+  margin-top: 200px;
+  color: white;
+  padding-bottom: 15px; }
+  .About h5 {
+    margin-top: 30px; }
+  .About .Download {
+    color: #d8d8d8;
+    border: 2px solid #d8d8d8;
+    padding: 10px;
+    background: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 100px; }
+
+.Skils .skl {
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px 4px #ccc;
+  margin-bottom: 50px;
+  opacity: 0; }
+  .Skils .skl img {
+    height: 100px; }
+
+.Education {
+  color: #595959; }
+  .Education img {
+    width: 100px;
+    height: 100px; }
+  .Education .ed {
+    border-bottom: 1px solid #d8d8d8; }
+  .Education h2 {
+    color: #d1a128; }
+  .Education .edc {
+    opacity: 0; }
+
+.Contact {
+  color: #595959; }
+  .Contact .sp {
+    width: 100px;
+    display: inline-block;
+    font-weight: bold; }
+  .Contact a {
+    color: #a73d3d !important; }
+  .Contact .ct {
+    opacity: 0;
+    margin-bottom: 50px; }
+
+main {
+  background: url(../images/home-bg3.ef171b05.jpg) top center no-repeat #bababa;
+  background-size: cover;
+  box-sizing: border-box;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-clip: border-box;
+  background-attachment: fixed;
+  overflow-x: hidden; }
+
+.btn:hover, .btn:focus, .btn:active {
+  color: white;
+  border-color: white;
+  outline: 0 !important;
+  box-shadow: none !important; }
+
+.navbar-toggler {
+  border: none !important; }
+
+.Skils, .Education, .Contact {
+  background-color: white;
+  min-height: 100vh; }
+  .Skils h1, .Education h1, .Contact h1 {
+    animation: fadeInLeft;
+    animation-duration: .8s;
+    color: #a73d3d; }
+  .Skils i, .Education i, .Contact i {
+    color: #d1a128; }
+
+@media (min-width: 992px) {
+  .triangle-left {
+    margin-top: 7.5px;
+    position: absolute;
+    right: 0px;
+    width: 0;
+    height: 0;
+    border-top: 12.5px solid transparent;
+    border-right: 25px solid rgba(204, 204, 204, 0.6);
+    border-bottom: 12.5px solid transparent;
+    display: inline-block; }
+  .About {
+    margin-left: 350px;
+    padding-left: 100px; }
+  .getintouch {
+    padding-left: 40px; }
+  #my-navbar-collapse {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    z-index: 101;
+    width: 350px;
+    height: 100%;
+    background-color: rgba(145, 13, 13, 0.8);
+    border: none; }
+  .Skils, .Education, .Contact, .Projects {
+    margin-left: 350px;
+    padding: 50px; }
+    .Skils h1, .Education h1, .Contact h1, .Projects h1 {
+      margin-bottom: 100px; } }
+
+@media (max-width: 991px) {
+  .navbar-toggler:hover,
+  .navbar-toggler:active,
+  .navbar-toggler:focus {
+    outline: none !important; }
+  .my-nav {
+    background-color: #a73d3d;
+    padding: 12px auto; }
+    .my-nav ul li {
+      text-align: right;
+      padding: 10px; }
+  .About {
+    padding-left: 20px; }
+    .About .Download {
+      margin-top: 60px;
+      color: white;
+      border-color: white; }
+  .info {
+    border-bottom: 1px solid #d8d8d8; }
+  .Skils h1, .Education h1, .Contact h1, .Projects h1 {
+    padding-top: 40px;
+    padding-bottom: 40px; }
+  .Contact a {
+    text-decoration: none; } }

@@ -1,0 +1,16 @@
+.Contact{
+    .sp{
+        width: 100px;
+        display: inline-block;
+        font-weight: bold;
+    }
+    color: #595959;
+    a{
+        color: $red !important;
+    }
+    .ct{
+        opacity: 0;
+        margin-bottom: 50px;
+
+    }
+}

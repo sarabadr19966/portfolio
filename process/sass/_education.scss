@@ -1,0 +1,19 @@
+.Education{
+    img{
+        width: 100px;
+        height: 100px;
+    }
+        color: darken($color: $light-gray, $amount: 50);
+    .ed{
+        border-bottom: 1px solid $light-gray;
+    }
+
+    h2{
+        color:#d1a128;
+
+    }
+    .edc{
+        opacity: 0;   
+
+    }
+}
