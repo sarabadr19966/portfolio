@@ -1,0 +1,49 @@
+.Projects{
+   
+    .p1{
+        opacity: 0;
+        position: relative;
+        margin-bottom: 50px;
+
+        .infr{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            opacity: 0;
+            color: $dark-gray;
+            font-weight: bold;
+            i:hover{
+                color: #775c17;
+            }
+            img{
+                width: 100%;
+                height: 100%;
+            }
+
+        }
+   
+        &:hover{
+            background-color:$base-color;
+            img{
+                opacity: 0;
+            } 
+            .infr{
+                .names{
+                    animation: fadeInDown;
+                    animation-duration: .8s;
+                }
+                .links{
+                    animation: fadeInUp;
+                    animation-duration: .8s;
+                }
+               
+                opacity: 1;  
+            }
+
+        }
+    
+}
+}

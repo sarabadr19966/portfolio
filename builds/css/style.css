@@ -76,6 +76,38 @@
   .Education .edc {
     opacity: 0; }
 
+.Projects .p1 {
+  opacity: 0;
+  position: relative;
+  margin-bottom: 50px; }
+  .Projects .p1 .infr {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    opacity: 0;
+    color: #595959;
+    font-weight: bold; }
+    .Projects .p1 .infr i:hover {
+      color: #775c17; }
+    .Projects .p1 .infr img {
+      width: 100%;
+      height: 100%; }
+  .Projects .p1:hover {
+    background-color: white; }
+    .Projects .p1:hover img {
+      opacity: 0; }
+    .Projects .p1:hover .infr {
+      opacity: 1; }
+      .Projects .p1:hover .infr .names {
+        animation: fadeInDown;
+        animation-duration: .8s; }
+      .Projects .p1:hover .infr .links {
+        animation: fadeInUp;
+        animation-duration: .8s; }
+
 .Contact {
   color: #595959; }
   .Contact .sp {
@@ -108,14 +140,14 @@ main {
 .navbar-toggler {
   border: none !important; }
 
-.Skils, .Education, .Contact {
+.Skils, .Education, .Contact, .Projects {
   background-color: white;
   min-height: 100vh; }
-  .Skils h1, .Education h1, .Contact h1 {
+  .Skils h1, .Education h1, .Contact h1, .Projects h1 {
     animation: fadeInLeft;
     animation-duration: .8s;
     color: #a73d3d; }
-  .Skils i, .Education i, .Contact i {
+  .Skils i, .Education i, .Contact i, .Projects i {
     color: #d1a128; }
 
 @media (min-width: 992px) {

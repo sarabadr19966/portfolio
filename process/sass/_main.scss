@@ -18,7 +18,7 @@ main{
 .navbar-toggler{
     border: none !important;
 }
-.Skils,.Education,.Contact{
+.Skils,.Education,.Contact,.Projects{
     background-color: white;
     min-height: 100vh;
     
@@ -28,7 +28,7 @@ main{
         color: $red;
     }
     i{
-        color:#d1a128;
+        color:$mustard;
     } 
   
   

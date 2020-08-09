@@ -20,6 +20,10 @@ $('li').click(function(){
       
         commonStuff('.Education',' .edc')
     }
+    else if($(this).hasClass('prj')){
+      
+        commonStuff('.Projects','.p1')
+    }
     else if($(this).hasClass('cnts')){
         commonStuff('.Contact',' .ct')
     }
